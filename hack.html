@@ -1,0 +1,38 @@
+<html><head></head><body style="
+    text-align: center;
+    margin-top: 50px;
+"><header>
+</header>
+
+  <h1 style="align:center;font-family: arial,sans-serif;">Twitter Personality</h1> <br>
+  <div style="align:center; vertical-align:middle">
+  <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/18527888_1344391705644813_1492693274587523466_n.jpg?oh=df8912503d5ff913c833e79e7a1bd156&amp;oe=59AEA338">
+  </div>     
+	   
+	   
+<form action="javascript:redirectIBM();" style="align:center; vertical-align:middle">
+  <input type="text" name="account" id="account" style="
+    width: 50%;
+    height: 50px;
+    font-size: 40px;
+"><br>
+  <input type="submit" value="Check Twitter Personality" style="
+    margin-top: 40px;
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    font-family: arial,sans-serif;
+">
+  <script type="text/javascript">
+	function redirectIBM() { 
+	var actt = document.getElementById("account").value;
+	window.location.replace("http://syhapp.mybluemix.net/personality?q=from:"+actt); }
+	</script>
+</form>
+
+<DIV style="align:center;font-family: arial,sans-serif;"> 
+
+        Created by Sophie Guan @Miller Middel School </DIV>
+
+
+</body></html>
